@@ -18,7 +18,7 @@ labels = kmeans.labels_
 centroids = kmeans.cluster_centers_
 
 plt.scatter(X[:,0], X[:,1], c=labels, cmap='viridis', s=50)
-plt.scatter(centroids[:,0], centroids[:,1], c='red', s=200, label='Centroids')
+plt.scatter(centroids[:,0], centroids[:,1], c='red', s=200, label='Centroids', marker='x')
 plt.title("Result clusters")
 plt.xlabel("X1")
 plt.ylabel("X2")
